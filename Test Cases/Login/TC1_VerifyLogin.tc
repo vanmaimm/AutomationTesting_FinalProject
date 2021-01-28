@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User can login with valid username and password. If username or password is wrong, the system will display the warning message.</description>
+   <name>TC1_VerifyLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15687ac9-ceb3-4eb8-95db-3c745bd22e63</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c3899e79-7b9b-43fb-94ce-1fd05d30f57f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>224158cd-9582-4038-9d22-c61f579ce9f7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
