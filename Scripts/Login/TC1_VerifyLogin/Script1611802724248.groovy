@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.openBrowser('')
 
@@ -28,7 +29,13 @@ WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Pass
 
 WebUI.click(findTestObject('Object Repository/Page_Login - My Store/span_Sign in'))
 
-WebUI.closeBrowser()
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_My account - My Store/myAccount'), 10)) {
+    KeywordUtil.markPassed('Login successfully')
+    WebUI.closeBrowser()
+} else {
+   	KeywordUtil.markFailed("Login unsuccessfully")
+    WebUI.closeBrowser()
+}
 
 WebUI.closeBrowser()
 

@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/Login/TC1_VerifyLogin</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>18a8b7a2-b95d-4a68-9812-f817ded2394e</id>
+         <id>eb42121a-b437-4454-a0bf-209b0704bbfe</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,13 +26,13 @@
          <testDataId>Data Files/Account</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>18a8b7a2-b95d-4a68-9812-f817ded2394e</testDataLinkId>
+         <testDataLinkId>eb42121a-b437-4454-a0bf-209b0704bbfe</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
          <variableId>c3899e79-7b9b-43fb-94ce-1fd05d30f57f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>18a8b7a2-b95d-4a68-9812-f817ded2394e</testDataLinkId>
+         <testDataLinkId>eb42121a-b437-4454-a0bf-209b0704bbfe</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>224158cd-9582-4038-9d22-c61f579ce9f7</variableId>
