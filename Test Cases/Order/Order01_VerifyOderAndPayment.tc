@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order01_VerifyOderAndPayment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9d28b4f-5280-49dd-82d9-81aff4bbfee3</testCaseGuid>
+</TestCaseEntity>
